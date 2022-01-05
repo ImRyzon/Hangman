@@ -1,0 +1,12 @@
+Here are the rules of the game:
+1. There will be a random word chosen by Player 1.
+2. The word will be first represented as a set of underscores, each underscore representing one letter in that word. Spaces are to be shown and spaces will not be represented by underscores.
+3. Player 2 will begin with 10 lives
+4. Each turn, Player 2 will guess either a letter that they have not previously guessed before or the actual word if they think they know what the word is.
+5. Every letter Player 2 guesses, no matter if it's in the word or not, will be marked as “already guessed”, which means they are unable to guess the letter again. If they accidentally guess a previously guessed letter, they will have to re-guess with no lives being taken off. All the letters of a guessed word, however, will not be marked as “already guessed”.
+6. If the letter Player 2 guessed is in the word, then every occurrence of that letter will be shown by replacing their corresponding underscores, respective by their locations, with the actual letter itself. No lives will be lost.
+7. If the letter Player 2 guessed is not in the word, a life will be taken off.
+8. If Player 2 guessed a word with 1 or more lives and that word was the same word that Player 1 chose, then Player 2 automatically wins.
+9. If Player 2 guesses a word and that word is not the actual word chosen, one life will be lost.
+10. If Player 2 guesses all the letters in the word with 1 or more lives left, then Player 2 wins
+11. If Player 2 runs out of lives and the word has still not been guessed, then Player 1 wins.
